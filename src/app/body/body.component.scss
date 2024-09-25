@@ -43,3 +43,34 @@ article {
   }
 
 }
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 60px;
+
+  h2 {
+    color: $primary-text-color;
+    font-size: 2em;
+  }
+
+  .healthcare {
+    h2 {
+      font-weight: 400;
+      padding-bottom: 60px;
+    }
+
+    .product-card {
+      width: 12vw;
+      height: auto;
+      background-color: $secondary-color;
+      color: $primary-text-color;
+      padding: 20px;
+      border-radius: 8px;
+
+      img {
+        width: 250px;
+      }
+    }
+  }
+}
